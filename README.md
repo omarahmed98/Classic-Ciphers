@@ -26,7 +26,7 @@ Ciphers Implemented: -
 3-	Hill Cipher
 4-	Vigenere Cipher
 5-	Vernam Cipher
-Part one: (Coding)
+## Part one: (Coding)
 Every algorithms consists of plaintext and key, the type of the differ from one algorithm to another.
 In Caser >> integer ,,,  Play Fair>> string ,,, Hill >> matrix of integers,,,
 Vigenere Cipher >> string ,,, Vernam Cipher >> string.
@@ -38,7 +38,7 @@ Taking the input from file and printing the output to file, so when coding the d
 -	Get_key function made to get the value from the entry of the key and then pass the key to function callback() which is doing encryption as I said before.
 -	Get_mode function to get the mode of the Vigenere algorithm which 0 “equal” auto and 1 equal “repeating”.
 -	Finally, the main function which I call the program through it.
-Part Two: (GUI)
+## Part Two: (GUI)
 -	The GUI is easy to use, and friendly as to use every algorithm all you want to put input file with main.exe (caesar_plain.txt - hill_plain_2x2.txt - hill_plain_3x3.txt - playfair_plain.txt - vernam_plain.txt - vigenere_plain.txt) and then put the key in the entry of the algorithm needed to encrypted.
 -	Then press the button of Encrypt …….. like “ ENCRYPT CAESAR”, the output will be printed in file and the last example of the output will be shown at “last example Cipher text example”.
 -	In case of writing the array of the Hill 2*2 or 3*3 , insert digits row by row and one space between every digit as I wrote in the GUI interface with blue color.
